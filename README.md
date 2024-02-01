@@ -270,8 +270,13 @@ The following can be considered as the logical components:
 <li> Container</li>
 
 
+<br>
+The following can be considered as the physical components:<br>
+<br>
 
-The following can be considered as the physical components:
+
+
+
 <li> Data store</li>
 <li> Global catalog</li>
 <li> Domain controller</li>
