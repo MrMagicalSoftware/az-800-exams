@@ -110,11 +110,33 @@ Ecco alcuni concetti chiave relativi alle foreste in Active Directory:
 ![Screenshot 2024-02-01 alle 11 11 40](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/367bdce5-5e4a-41a9-a19a-a723b02b6284)
 
 
+______________________________________________________
+
+
+Concetto di tree ( albero )
+
+![Screenshot 2024-02-01 alle 11 22 40](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/b260551f-8f6e-44ec-bb9b-c59a9d725820)
 
 
 
+In Active Directory, un "albero" si riferisce alla struttura gerarchica di domini collegati tra loro. La combinazione di più domini organizzati in modo gerarchico costituisce la struttura ad albero di Active Directory. Ecco alcune informazioni chiave riguardo a questa struttura:
+
+Un albero in Active Directory rappresenta una struttura gerarchica di domini collegati tra loro, consentendo una gestione organizzata e centralizzata delle risorse e delle identità all'interno di una rete. La struttura ad albero offre una flessibilità organizzativa e amministrativa all'interno di Active Directory.
 
 
+1. **Struttura Gerarchica**: Un albero di Active Directory è una struttura organizzata gerarchicamente in cui i domini sono collegati in una relazione padre-figlio. Il dominio al livello più alto dell'albero è noto come "dominio radice", e i domini successivi costituiscono i "domini figlio".
+
+2. **Relazione Padre-Figlio**: Ogni dominio, ad eccezione del dominio radice, è legato al dominio genitore attraverso una relazione padre-figlio. Ad esempio, se si ha un dominio radice chiamato "azienda.local", è possibile avere domini figlio come "vendite.azienda.local" e "produzione.azienda.local".
+
+3. **Nome Completo del Dominio**: Il nome completo del dominio (Fully Qualified Domain Name o FQDN) di un dominio figlio include il nome del dominio figlio e il nome completo del dominio genitore. Ad esempio, il FQDN per il dominio figlio "vendite" potrebbe essere "vendite.azienda.local".
+
+4. **Trust tra Domini**: I domini all'interno dell'albero possono stabilire relazioni di trust tra di loro. Ciò consente agli utenti di un dominio di accedere alle risorse in altri domini dell'albero senza dover reinserire le credenziali.
+
+5. **Politiche di Gruppo (Group Policies)**: Le Politiche di Gruppo possono essere applicate a livello di albero, consentendo agli amministratori di configurare le impostazioni di sicurezza e di configurazione su tutti i domini all'interno della struttura ad albero.
+
+6. **Namespace DNS Associato**: Ogni dominio all'interno dell'albero è associato a uno spazio dei nomi DNS. Il nome del dominio, insieme al nome del dominio genitore, costituisce il FQDN utilizzato per identificare univocamente un dominio all'interno dell'albero.
+
+7. **Gestione Centralizzata**: Nonostante ogni dominio abbia la sua amministrazione locale, la struttura ad albero di Active Directory consente una gestione centralizzata attraverso l'applicazione coerente di politiche di sicurezza e configurazioni su tutti i domini.
 
 
 
