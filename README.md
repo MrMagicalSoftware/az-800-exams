@@ -382,7 +382,7 @@ Risposte:
 5. B) Attraverso autorizzazioni specifiche
 6. C) Nella partizione di configurazione
 
-
+________
 
 
 
