@@ -144,7 +144,10 @@ ___________________________________________________
 # Concetto di schema 
 
 
-# Lo "schema" in Active Directory è una parte fondamentale del servizio di directory e definisce la struttura e i tipi di oggetti che possono essere archiviati nel database di Active Directory. Questo include oggetti come utenti, gruppi, computer, stampanti e altri oggetti di sistema. Ecco alcuni punti chiave relativi allo schema in Active Directory:
+Lo "schema" in Active Directory è una parte fondamentale del servizio di directory e definisce la struttura e i tipi di oggetti che possono essere archiviati nel database di Active Directory. Questo include oggetti come utenti, gruppi, computer, stampanti e altri oggetti di sistema. Ecco alcuni punti chiave relativi allo schema in Active Directory:
+
+ lo schema in Active Directory funge da "schema dati" per la struttura e i tipi di oggetti che possono essere archiviati. È una componente critica per la coerenza e la gestione delle informazioni all'interno del servizio di directory.
+
 
 1. **Definizione degli Oggetti**: Lo schema specifica quali attributi e quali tipi di oggetti possono essere memorizzati in Active Directory. Ad esempio, definisce cosa costituisce un oggetto utente, quali attributi contiene (come nome utente, password, ecc.) e come sono strutturati.
 
@@ -162,7 +165,117 @@ ___________________________________________________
 
 8. **Compatibilità**: La coerenza nello schema è fondamentale per garantire la compatibilità tra i vari servizi e applicazioni che fanno uso di Active Directory. Le modifiche allo schema devono essere gestite con attenzione per evitare problemi di interoperabilità.
 
-In sintesi, lo schema in Active Directory funge da "schema dati" per la struttura e i tipi di oggetti che possono essere archiviati. È una componente critica per la coerenza e la gestione delle informazioni all'interno del servizio di directory.
+
+
+_______________________
+
+
+# Concetti Fondamentali per iniziare :
+> Domain
+> Tree
+> Forest
+> Schema
+
+
+
+Review dei concetti .
+
+
+Certamente! Ecco alcune domande a risposta multipla riguardo a Domain, Tree, Forest e Schema:
+
+### Domain:
+
+1. **Cosa rappresenta un dominio in Active Directory?**
+   - A) Una unità di organizzazione fisica
+   - B) Una unità di organizzazione logica e di sicurezza
+   - C) Un singolo computer in una rete
+   - D) Un tipo di albero nella struttura di Active Directory
+
+2. **Qual è la funzione principale di un dominio in Active Directory?**
+   - A) Fornire accesso a Internet
+   - B) Organizzare gli oggetti di sicurezza e di rete
+   - C) Gestire le stampanti di rete
+   - D) Aggiornare automaticamente i software sui computer client
+
+### Tree:
+
+3. **Cosa rappresenta un albero in Active Directory?**
+   - A) Una collezione di oggetti utente
+   - B) Una struttura gerarchica di domini collegati
+   - C) Una configurazione di rete wireless
+   - D) Una serie di gruppi di lavoro connessi
+
+4. **Qual è la relazione principale tra i domini in un albero di Active Directory?**
+   - A) Parente-figlio
+   - B) Fratello-sorella
+   - C) Non ci sono relazioni tra i domini
+   - D) Bidirezionale
+
+### Forest:
+
+5. **Cosa è una foresta in Active Directory?**
+   - A) Una collezione di alberi
+   - B) Un singolo dominio di rete
+   - C) Una struttura ad albero con radice
+   - D) Un gruppo di server Web
+
+6. **Cosa condivide una foresta in Active Directory tra tutti i domini al suo interno?**
+   - A) Schema, configurazione e trust di sicurezza
+   - B) Solo gli oggetti utente
+   - C) Solo le Politiche di Gruppo
+   - D) Solo i nomi dei computer
+
+### Schema:
+
+7. **Cosa rappresenta lo schema in Active Directory?**
+   - A) Una collezione di immagini di sfondo
+   - B) La struttura di un sito web
+   - C) La definizione degli oggetti e degli attributi in Active Directory
+   - D) Una serie di protocolli di rete
+
+8. **Dove sono memorizzate le informazioni relative allo schema in Active Directory?**
+   - A) Nella partizione di dominio
+   - B) Nella partizione di applicazione
+   - C) Nella partizione di configurazione
+   - D) In un file di testo sul server principale
+
+
+Risposte alle domande :
+
+1-B
+2-B
+3-B
+4-A
+5-A
+6-A
+7-C
+8-C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
