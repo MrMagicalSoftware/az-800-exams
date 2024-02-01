@@ -46,6 +46,38 @@ Concetti fondamentali di Active Directory:
 
 _______________________________________________________________________________
 
+# Concetto di Dominio.
+
+
+![Screenshot 2024-02-01 alle 11 14 03](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/23ce35b0-b164-4267-a361-64e354c77fa1)
+
+
+In Active Directory, un "dominio" è una unità di organizzazione logica e di sicurezza. Un dominio raggruppa un insieme di risorse, utenti e oggetti di sicurezza in un'unica entità amministrativa all'interno di una rete. Ecco alcune caratteristiche chiave di un dominio in Active Directory:
+
+1. **Unità Amministrativa**: Un dominio rappresenta un'unità di amministrazione, consentendo agli amministratori di gestire utenti, gruppi, computer e risorse all'interno di un singolo contesto organizzativo.
+
+2. **Sicurezza**: I domini forniscono un confine di sicurezza logica all'interno di Active Directory. Gli oggetti di sicurezza, come gli account utente e i gruppi, sono amministrati all'interno del contesto di un dominio, e le policy di sicurezza possono essere applicate a livello di dominio.
+
+3. **Nome del Dominio**: Ogni dominio ha un nome univoco nella rete. Ad esempio, un dominio può essere chiamato "azienda.local". Il nome del dominio è parte integrante dell'indirizzo di rete e può essere utilizzato per accedere alle risorse all'interno del dominio.
+
+4. **Controller di Dominio**: Un dominio è supportato da uno o più controller di dominio. Questi server mantengono una copia del database di Active Directory per il dominio e forniscono servizi di autenticazione, autorizzazione e replica dei dati.
+
+5. **Replica dei Dati**: I controller di dominio all'interno di un dominio si sincronizzano tra loro per garantire la coerenza delle informazioni. La replica dei dati è essenziale per garantire che le modifiche apportate in un controller di dominio vengano propagate agli altri.
+
+6. **Politiche di Gruppo (Group Policies)**: Le Politiche di Gruppo possono essere applicate a livello di dominio. Ciò consente agli amministratori di configurare le impostazioni di sicurezza, le restrizioni e altre configurazioni su tutti i computer e utenti all'interno del dominio.
+
+7. **Namespace DNS Associato**: Ogni dominio Active Directory è associato a uno spazio dei nomi DNS (Domain Name System). Ad esempio, se il nome del dominio è "azienda.local", il corrispondente spazio dei nomi DNS sarà "azienda.local".
+
+8. **Trust**: I domini possono stabilire relazioni di trust con altri domini, consentendo agli utenti di accedere alle risorse in domini diversi. I trust possono essere unidirezionali o bidirezionali.
+   
+Possiamo pensare che un dominio in Active Directory rappresenta un'entità organizzativa e di sicurezza all'interno di una rete, fornendo un contesto amministrativo e di accesso per gli utenti e le risorse. I domini sono le unità fondamentali su cui è costruita la struttura ad albero di Active Directory.
+
+
+
+_______________________________________________________________________________
+
+
+
 # Concetto sulla Foresta
 
 
