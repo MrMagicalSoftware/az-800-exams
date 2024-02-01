@@ -52,7 +52,7 @@ _______________________________________________________________________________
 ![Screenshot 2024-02-01 alle 11 14 03](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/23ce35b0-b164-4267-a361-64e354c77fa1)
 
 
-In Active Directory, un "dominio" è una unità di organizzazione logica e di sicurezza. Un dominio raggruppa un insieme di risorse, utenti e oggetti di sicurezza in un'unica entità amministrativa all'interno di una rete. Ecco alcune caratteristiche chiave di un dominio in Active Directory:
+In Active Directory, un "dominio" è una unità di organizzazione logica e di sicurezza. Un dominio raggruppa un insieme di risorse, utenti e oggetti di sicurezza in un'unica entità amministrativa all'interno di una rete. le caratteristiche chiave di un dominio in Active Directory:
 
 1. **Unità Amministrativa**: Un dominio rappresenta un'unità di amministrazione, consentendo agli amministratori di gestire utenti, gruppi, computer e risorse all'interno di un singolo contesto organizzativo.
 
