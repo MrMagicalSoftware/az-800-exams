@@ -324,7 +324,63 @@ In Active Directory, un "container" è un tipo di oggetto che viene utilizzato p
 
 
 
+NOTA :
 
+La principale differenza tra un “container” e un’ “Organizational Unit (OU)” in Active Directory è la capacità di applicare politiche di gruppo e di delegare le autorizzazioni. 
+Le OU sono progettate per essere utilizzate come contenitori all’interno dei quali gli amministratori di sistema possono applicare politiche di gruppo (GPO) e possono delegare controlli o autorizzazioni amministrative su subset di oggetti all’interno dell’Active Directory. Inoltre, le OU possono essere annidate, permettendo una struttura gerarchica che facilita la gestione e l’organizzazione.
+
+D’altra parte, i container, come “Users” o “Computers”, sono oggetti predefiniti in Active Directory che non hanno la stessa flessibilità delle OU.
+Non si possono applicare direttamente le GPO ai container e non è possibile delegare le autorizzazioni in modo granulare come si farebbe con le OU. Inoltre, i container non possono essere annidati come le OU, quindi la loro capacità organizzativa è più limitata.
+se si ha bisogno di una struttura flessibile per applicare politiche di gruppo e per delegare autorizzazioni a diversi amministratori o gruppi di amministratori, bisogna utilizzare le OU piuttosto che i container predefiniti.
+
+
+
+# DOMANDE DI RIPASSO :
+
+
+1. **Cosa rappresenta un "container" in Active Directory?**
+   - A) Un tipo di server
+   - B) Un oggetto di sicurezza
+   - C) Un oggetto utilizzato per organizzare altri oggetti
+   - D) Un livello di accesso alle risorse
+
+2. **Quale dei seguenti è un esempio di container predefinito in Active Directory?**
+   - A) Organizational Unit (OU)
+   - B) Schema
+   - C) Forest
+   - D) Users
+
+3. **Qual è la principale differenza tra un "container" e un' "Organizational Unit (OU)" in Active Directory?**
+   - A) Gli oggetti in un container non possono ereditare le impostazioni
+   - B) Le OU sono utilizzate solo per organizzare utenti
+   - C) I container non possono contenere altri oggetti
+   - D) Gli oggetti in una OU ereditano le impostazioni del dominio
+
+4. **Qual è il ruolo principale di un container in Active Directory?**
+   - A) Fornire accesso a Internet
+   - B) Organizzare oggetti in un contesto specifico
+   - C) Applicare Politiche di Gruppo
+   - D) Creare nuovi domini
+
+5. **Come vengono gestiti gli accessi ai containers in Active Directory?**
+   - A) Attraverso una chiave fisica
+   - B) Attraverso autorizzazioni specifiche
+   - C) Utilizzando un nome utente generico
+   - D) Automaticamente senza necessità di gestione
+
+6. **Dove sono memorizzate le informazioni relative ai containers in Active Directory?**
+   - A) Nella partizione di dominio
+   - B) Nella partizione di schema
+   - C) Nella partizione di configurazione
+   - D) In un file di testo sul server principale
+
+Risposte:
+1. C) Un oggetto utilizzato per organizzare altri oggetti
+2. D) Users
+3. A) Gli oggetti in un container non possono ereditare le impostazioni
+4. B) Organizzare oggetti in un contesto specifico
+5. B) Attraverso autorizzazioni specifiche
+6. C) Nella partizione di configurazione
 
 
 
