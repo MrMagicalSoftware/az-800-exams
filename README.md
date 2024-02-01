@@ -113,7 +113,7 @@ Ecco alcuni concetti chiave relativi alle foreste in Active Directory:
 ______________________________________________________
 
 
-Concetto di tree ( albero )
+# Concetto di tree ( albero )
 
 ![Screenshot 2024-02-01 alle 11 22 40](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/b260551f-8f6e-44ec-bb9b-c59a9d725820)
 
@@ -137,6 +137,39 @@ Un albero in Active Directory rappresenta una struttura gerarchica di domini col
 6. **Namespace DNS Associato**: Ogni dominio all'interno dell'albero è associato a uno spazio dei nomi DNS. Il nome del dominio, insieme al nome del dominio genitore, costituisce il FQDN utilizzato per identificare univocamente un dominio all'interno dell'albero.
 
 7. **Gestione Centralizzata**: Nonostante ogni dominio abbia la sua amministrazione locale, la struttura ad albero di Active Directory consente una gestione centralizzata attraverso l'applicazione coerente di politiche di sicurezza e configurazioni su tutti i domini.
+
+___________________________________________________
+
+
+# Concetto di schema 
+
+
+# Lo "schema" in Active Directory è una parte fondamentale del servizio di directory e definisce la struttura e i tipi di oggetti che possono essere archiviati nel database di Active Directory. Questo include oggetti come utenti, gruppi, computer, stampanti e altri oggetti di sistema. Ecco alcuni punti chiave relativi allo schema in Active Directory:
+
+1. **Definizione degli Oggetti**: Lo schema specifica quali attributi e quali tipi di oggetti possono essere memorizzati in Active Directory. Ad esempio, definisce cosa costituisce un oggetto utente, quali attributi contiene (come nome utente, password, ecc.) e come sono strutturati.
+
+2. **Struttura Gerarchica**: Gli oggetti all'interno dello schema sono organizzati in una struttura gerarchica. Ciò riflette la relazione tra diversi tipi di oggetti e attributi. La struttura gerarchica è essenziale per mantenere l'ordine e la coerenza delle informazioni.
+
+3. **Estensione dello Schema**: In alcuni casi, è possibile estendere lo schema per includere nuovi attributi o oggetti personalizzati che soddisfano requisiti specifici dell'organizzazione. Questa estensione dello schema deve essere gestita attentamente per evitare problemi di compatibilità.
+
+4. **Configurazione Globale**: Le informazioni relative allo schema sono memorizzate nella partizione di configurazione di Active Directory, che è globale per l'intera foresta. Ciò significa che lo schema è condiviso tra tutti i domini all'interno della foresta.
+
+5. **Versioning**: Lo schema è soggetto a versioning, il che significa che può essere aggiornato nel corso del tempo. Gli amministratori possono apportare modifiche allo schema per adattarsi alle esigenze dell'organizzazione o per integrare nuove funzionalità.
+
+6. **DNS e Nomi Univoci**: Lo schema contribuisce a definire la struttura dei nomi all'interno di Active Directory. Ad esempio, il nome di un attributo può essere univoco in tutto lo schema, garantendo così la coerenza nelle definizioni degli oggetti.
+
+7. **Limitazioni e Autorizzazioni**: La modifica dello schema richiede privilegi elevati e deve essere effettuata con attenzione. Gli amministratori devono avere i diritti appropriati per apportare modifiche allo schema.
+
+8. **Compatibilità**: La coerenza nello schema è fondamentale per garantire la compatibilità tra i vari servizi e applicazioni che fanno uso di Active Directory. Le modifiche allo schema devono essere gestite con attenzione per evitare problemi di interoperabilità.
+
+In sintesi, lo schema in Active Directory funge da "schema dati" per la struttura e i tipi di oggetti che possono essere archiviati. È una componente critica per la coerenza e la gestione delle informazioni all'interno del servizio di directory.
+
+
+
+
+
+
+
 
 
 
