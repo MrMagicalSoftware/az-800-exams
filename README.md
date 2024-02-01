@@ -261,23 +261,23 @@ ___________________________________________________________
 The following can be considered as the logical components:
 
 
-<li>• Domain</li>
-<li>• Domain tree</li>
-<li>• Forest</li>
-<li>• OU</li>
-<li>• Partition</li>
-<li>• Schema</li>
-<li>• Container</li>
+<li> Domain</li>
+<li> Domain tree</li>
+<li> Forest</li>
+<li> OU</li>
+<li> Partition</li>
+<li> Schema</li>
+<li> Container</li>
 
 
 
 The following can be considered as the physical components:
-<li>• Data store</li>
-<li>• Global catalog</li>
-<li>• Domain controlle</li>r
-<li>• Read-only domain controller</li>
-<li>• Site</li>
-<li>• Subnet</li>
+<li> Data store</li>
+<li> Global catalog</li>
+<li> Domain controller</li>
+<li> Read-only domain controller</li>
+<li> Site</li>
+<li> Subnet</li>
 
 
 
