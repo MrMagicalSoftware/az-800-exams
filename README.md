@@ -1,7 +1,17 @@
-# az-800-exams
 
 
 # Administering Windows Server Hybrid Core Infrastructure AZ-800
+
+
+Link Utili materiale
+
+https://www.thomasmaurer.ch/2022/03/az-800-exam-study-guide-administering-windows-server-hybrid-core-infrastructure/
+
+https://learn.microsoft.com/it-it/training/paths/deploy-manage-identity-infrastructure/?WT.mc_id=modinfra-59761-thmaure
+https://learn.microsoft.com/it-it/training/paths/manage-windows-servers-workloads-hybrid-environment/?WT.mc_id=modinfra-59761-thmaure
+https://learn.microsoft.com/it-it/training/paths/manage-virtualization-containers-hybrid-environment/?WT.mc_id=modinfra-59761-thmaure
+https://learn.microsoft.com/it-it/training/paths/implement-operate-premises-hybrid/?WT.mc_id=modinfra-59761-thmaure
+https://learn.microsoft.com/it-it/training/paths/implement-operate-premises-hybrid/?WT.mc_id=modinfra-59761-thmaure
 
 Hybrid Identity
 
@@ -860,6 +870,32 @@ Example :  Use AD DS management tools
 
 
 ![Screenshot 2024-02-01 alle 15 47 21](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/c42bbc91-f45f-4fdf-9b1d-5236e0437d98)
+
+
+
+
+Il comando Get-ADUser -Filter * è un comando PowerShell che viene utilizzato all’interno del modulo Active Directory di Windows. Esso richiede e restituisce attributi relativi agli account utente dall’ambiente Active Directory.
+
+
+- Get-ADUser: È il cmdlet usato per ottenere uno o più oggetti utente di Active Directory.
+
+- -Filter *: Questa opzione specifica il filtro da applicare al comando. Il carattere * (asterisco) è usato come carattere jolly e indica che il cmdlet dovrebbe restituire tutti gli utenti di Active Directory senza applicare alcun filtro specifico agli attributi degli oggetti. In altre parole, richiede tutti gli account utente nell’ambiente AD.
+
+Per default, Get-ADUser restituirà un set limitato di proprietà per ogni utente, come ad esempio il nome di dominio dell’utente (DistinguishedName), l’identificatore dell’oggetto (ObjectGUID), il SamAccountName, e l’UPN (UserPrincipalName).
+
+Per restituire attributi aggiuntivi, puoi utilizzare il parametro -Properties seguito dall’elenco degli attributi che ti interessano, ad esempio: Get-ADUser -Filter * -Properties DisplayName, EmailAddress.
+
+ esempio di utilizzo base del comando:
+
+
+Get-ADUser -Filter *
+
+
+
+Questo comando restituirà l’elenco di tutti gli account utente con le proprietà di default dal tuo dominio Active Directory corrente.
+
+
+Get-ADUser -Filter * | ft ---> formattazione tabellare
 
 
 _________________
