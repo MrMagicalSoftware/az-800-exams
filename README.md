@@ -635,11 +635,74 @@ Principali ruoli e responsabilità dei Domain Controller in Active Directory:
    - I Domain Controller forniscono servizi di directory, consentendo agli utenti e ai dispositivi di cercare e accedere alle risorse all'interno del dominio. Questi servizi includono la ricerca degli oggetti di Active Directory, la risoluzione dei nomi e la gestione dei servizi di autenticazione.
 
 
+![Screenshot 2024-02-01 alle 13 02 28](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/f8692107-8463-4a8d-8b40-0753b35695eb)
 
 
 
 
 
+1. **Cosa gestiscono principalmente i Domain Controller in Active Directory?**
+   - A) Archiviazione di file e cartelle
+   - B) Servizi di database SQL
+   - C) Autenticazione, autorizzazione e servizi di directory
+   - D) Configurazioni di rete
+
+2. **Qual è il ruolo principale dei Domain Controller durante il processo di autenticazione?**
+   - A) Determinare i permessi di accesso
+   - B) Memorizzare password utente
+   - C) Verificare l'identità degli utenti
+   - D) Configurare le Politiche di Gruppo
+
+3. **Dove vengono memorizzate le informazioni sugli oggetti di Active Directory?**
+   - A) In un server di file
+   - B) Nel registro di sistema
+   - C) Nel database di Active Directory sui Domain Controller
+   - D) Su un server DNS
+
+4. **Qual è la principale responsabilità della replica dei dati tra i Domain Controller?**
+   - A) Garantire la conformità alle Politiche di Gruppo
+   - B) Propagare in modo coerente le modifiche agli oggetti di Active Directory
+   - C) Gestire le connessioni di rete
+   - D) Creare backup periodici dei dati
+
+5. **Cosa forniscono principalmente le Politiche di Gruppo gestite dai Domain Controller?**
+   - A) Configurazioni del server DNS
+   - B) Configurazioni del firewall
+   - C) Impostazioni di sicurezza, configurazioni del sistema e altre impostazioni a livello di dominio
+   - D) Accesso ai servizi di directory esterni
+
+Risposte:
+1. C) Autenticazione, autorizzazione e servizi di directory
+2. C) Verificare l'identità degli utenti
+3. C) Nel database di Active Directory sui Domain Controller
+4. B) Propagare in modo coerente le modifiche agli oggetti di Active Directory
+5. C) Impostazioni di sicurezza, configurazioni del sistema e altre impostazioni a livello di dominio
+
+
+____________________________________________________________________________________________________________________
+
+
+# OPERATIONS MASTERS
+
+
+I "Operations Masters" (o anche "Flexible Single Master Operations" - FSMO) sono ruoli speciali in un dominio Active Directory che controllano operazioni specifiche e attribuzioni di responsabilità all'interno della foresta o del dominio. Questi ruoli aiutano a garantire la coerenza e la corretta gestione delle operazioni su larga scala. Ci sono cinque ruoli di Operations Masters in un dominio Active Directory:
+
+1. **Ruolo di Schema Master**:
+   - Questo ruolo controlla e coordina tutte le modifiche allo schema di Active Directory. Lo schema definisce la struttura degli oggetti e degli attributi in Active Directory. Il Domain Controller che detiene il ruolo di Schema Master è l'unico autorizzato a apportare modifiche allo schema.
+
+2. **Ruolo di Domain Naming Master**:
+   - Questo ruolo controlla l'aggiunta e la rimozione di domini all'interno della foresta. Assicura che non ci siano conflitti nei nomi dei domini all'interno della foresta e gestisce le operazioni relative alla modifica della struttura di dominio.
+
+3. **Ruolo PDC Emulator (Primary Domain Controller Emulator)**:
+   - Il Domain Controller con il ruolo PDC Emulator svolge un ruolo centrale nella gestione del dominio. Gestisce le operazioni di autenticazione, sincronizzazione dell'orologio e altri processi cruciali. Inoltre, è il punto focale per le operazioni legacy basate sui controller di dominio precedenti a Windows 2000.
+
+4. **Ruolo RID Master (Relative Identifier)**:
+   - Questo ruolo assegna i numeri di identificazione relativi (RID) ai singoli oggetti all'interno del dominio. I RID sono importanti per garantire la creazione univoca di oggetti come utenti, gruppi e computer. Il Domain Controller con il ruolo RID Master assegna blocchi di RID ai singoli Domain Controllers.
+
+5. **Ruolo Infrastructure Master**:
+   - Questo ruolo gestisce la risoluzione di nomi di oggetti all'interno di domini differenti. Assicura la coerenza dei riferimenti a oggetti in altri domini. Tuttavia, in un ambiente con un unico dominio, questo ruolo può essere trascurato.
+
+L'assegnazione di questi ruoli a specifici Domain Controllers contribuisce a garantire la stabilità e la coerenza dell'intero ambiente Active Directory. Gli Operations Masters riducono il rischio di conflitti e assicurano che le operazioni cruciali siano gestite in modo controllato e affidabile.
 
 
 
