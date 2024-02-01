@@ -641,6 +641,10 @@ Principali ruoli e responsabilità dei Domain Controller in Active Directory:
 
 
 
+
+
+
+
 1. **Cosa gestiscono principalmente i Domain Controller in Active Directory?**
    - A) Archiviazione di file e cartelle
    - B) Servizi di database SQL
@@ -782,6 +786,10 @@ il Global Catalog è una componente critica di Active Directory che migliora l'e
    - Le ricerche che coinvolgono il Global Catalog sono spesso utilizzate durante l'autenticazione degli utenti, la ricerca di destinatari per la posta elettronica e altre operazioni di ricerca di oggetti in ambienti complessi.
 
 
+![Screenshot 2024-02-01 alle 13 53 13](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/c99b29f5-4840-454d-bac8-039f768f6a99)
+
+![Screenshot 2024-02-01 alle 13 54 31](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/870bfecc-8ac7-4f9b-b01f-368f205a79ca)
+
 
 ______________________
 
@@ -829,6 +837,7 @@ Risposte:
 
 
 
+![Screenshot 2024-02-01 alle 13 56 22](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/4b11574d-54ed-41a3-8345-205df60c61e3)
 
 
 
