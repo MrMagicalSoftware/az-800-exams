@@ -840,6 +840,41 @@ Risposte:
 ![Screenshot 2024-02-01 alle 13 56 22](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/4b11574d-54ed-41a3-8345-205df60c61e3)
 
 
+Example :  Use AD DS management tools
+
+
+![Screenshot 2024-02-01 alle 13 58 39](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/0e77aa66-bf61-405d-a9ed-56ec062f4e58)
+
+
+![Screenshot 2024-02-01 alle 13 59 31](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/bc678c3f-9fb8-48b3-a9e3-9e7f79b24a75)
+
+
+
+![Screenshot 2024-02-01 alle 14 00 18](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/044a48d0-d6db-4d58-b6b4-74a0e84c2993)
+
+
+![Screenshot 2024-02-01 alle 14 01 00](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/ecdf5b60-cbb4-427c-b1e5-199ca320a685)
+
+![Screenshot 2024-02-01 alle 14 01 38](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/c05540fb-3cd9-4b03-8734-db2509528a66)
+
+
+
+![Screenshot 2024-02-01 alle 15 47 21](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/c42bbc91-f45f-4fdf-9b1d-5236e0437d98)
+
+
+_________________
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
