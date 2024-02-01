@@ -259,20 +259,25 @@ ___________________________________________________________
 
 
 The following can be considered as the logical components:
-• Domain
-• Domain tree
-• Forest
-• OU
-• Partition
-• Schema
-• Container
+
+
+<li>• Domain</li>
+<li>• Domain tree</li>
+<li>• Forest</li>
+<li>• OU</li>
+<li>• Partition</li>
+<li>• Schema</li>
+<li>• Container</li>
+
+
+
 The following can be considered as the physical components:
-• Data store
-• Global catalog
-• Domain controller
-• Read-only domain controller
-• Site
-• Subnet
+<li>• Data store</li>
+<li>• Global catalog</li>
+<li>• Domain controlle</li>r
+<li>• Read-only domain controller</li>
+<li>• Site</li>
+<li>• Subnet</li>
 
 
 
@@ -282,6 +287,35 @@ The following can be considered as the physical components:
 
 ![Screenshot 2024-02-01 alle 11 40 40](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/494360ca-992b-402f-85dc-b1ac805ee52a)
 
+In Active Directory, un "container" è un tipo di oggetto che viene utilizzato per organizzare e contenere altri oggetti. I container forniscono una struttura gerarchica all'interno di un dominio e sono utilizzati per raggruppare e organizzare gli oggetti in un contesto specifico. 
+
+ i containers in Active Directory fungono da contenitori logici per organizzare e raggruppare gli oggetti. Sono una parte essenziale della struttura gerarchica del servizio di directory, contribuendo alla gestione organizzativa e alla sicurezza nell'ambiente di rete.
+
+
+1. **Definizione di Container**:
+   - Un container è un tipo di oggetto di Active Directory utilizzato per organizzare altri oggetti, come utenti, gruppi e computer. I container possono essere pensati come contenitori logici in cui gli oggetti sono raggruppati in base a una determinata logica organizzativa.
+
+2. **Differenza tra Container e Organizational Unit (OU)**:
+   - Sia i containers che le Organizational Units (OU) sono utilizzati per organizzare oggetti, ma ci sono alcune differenze importanti. Gli oggetti all'interno di un container ereditano le impostazioni del dominio, mentre un'OU consente la delega di autorità e l'applicazione di Politiche di Gruppo specifiche.
+
+3. **Esempi di Containers Predefiniti**:
+   - Alcuni containers predefiniti in Active Directory includono:
+      - **Users**: Contiene account utente.
+      - **Computers**: Contiene account computer.
+      - **Domain Controllers**: Contiene i controller di dominio del dominio.
+      - **System**: Contiene oggetti di sistema.
+
+4. **Accesso ai Containers**:
+   - L'accesso ai containers è determinato dalle autorizzazioni. Gli amministratori possono avere diritti di accesso diversi a diversi containers. Ad esempio, un amministratore potrebbe avere accesso completo a un container "Users" ma solo accesso di lettura a un container "System".
+
+5. **Creazione di Nuovi Containers**:
+   - A differenza di alcune altre strutture in Active Directory, i containers non possono essere creati direttamente dall'utente. Sono spesso creati automaticamente quando vengono creati oggetti all'interno di Active Directory.
+
+6. **Ruolo nei Livelli di Sicurezza e Organizzazione**:
+   - I containers svolgono un ruolo importante nella gestione della sicurezza e nella struttura organizzativa di Active Directory. Consentono agli amministratori di applicare autorizzazioni specifiche e organizzare gli oggetti in modo coerente.
+
+7. **Replica dei Dati**:
+   - Le informazioni all'interno dei containers vengono replicate tra i controller di dominio per garantire la coerenza delle informazioni in tutto l'ambiente Active Directory.
 
 
 
