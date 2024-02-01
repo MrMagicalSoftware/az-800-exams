@@ -420,6 +420,38 @@ In sintesi, un "Site" in Active Directory offre un modo organizzato e logico per
 
 
 
+# CONCETTO DI SUB-NET
+
+
+Una "subnet" (abbreviazione di "sub-network" o "sottorete") è una partizione logica di una rete di computer. Questa divisione consente di suddividere una rete più grande in segmenti più gestibili e può contribuire a migliorare l'efficienza delle comunicazioni e la sicurezza del sistema. Ecco alcuni concetti chiave relativi alle subnet:
+
+una subnet è una suddivisione logica di una rete IP, che consente una migliore gestione delle risorse, una maggiore sicurezza e una più efficiente gestione del traffico di rete.
+
+
+1. **Definizione di Subnet**:
+   - Una subnet rappresenta una porzione di una rete IP, identificata da un indirizzo IP e una maschera di sottorete. Le subnet sono utilizzate per organizzare e suddividere grandi reti in segmenti più piccoli.
+
+2. **Indirizzo IP e Maschera di Sottorete**:
+   - Ogni dispositivo in una subnet è assegnato a un indirizzo IP all'interno di una specifica gamma di indirizzi IP. La maschera di sottorete definisce quali bit dell'indirizzo IP sono riservati per l'identificazione della rete e quali sono destinati agli host all'interno della subnet.
+
+3. **Vantaggi delle Subnet**:
+   - Le subnet offrono diversi vantaggi, tra cui:
+      - **Miglioramento delle Prestazioni**: Riduzione del traffico di broadcast e miglioramento delle prestazioni di rete.
+      - **Sicurezza**: Isolamento di segmenti di rete per scopi di sicurezza.
+      - **Gestione Efficiente**: Suddivisione logica per semplificare la gestione della rete.
+      - **Riduzione del Traffico Broadcast**: Minimizzazione del broadcast a livello di subnet.
+
+4. **Classi di Indirizzi IP e Classless Inter-Domain Routing (CIDR)**:
+   - Tradizionalmente, le reti venivano suddivise in classi (Classe A, B, C), ma con l'introduzione di CIDR, è possibile definire subnet in modo più flessibile senza essere vincolati alle vecchie classi di indirizzi IP.
+
+5. **Notazione CIDR**:
+   - Le subnet sono spesso rappresentate utilizzando la notazione CIDR, che include l'indirizzo IP della rete seguito da una barra e il numero di bit utilizzati per la subnet. Ad esempio, "192.168.1.0/24" rappresenta una subnet con una maschera di sottorete di 24 bit.
+
+6. **Router e Comunicazione tra Subnet**:
+   - I router collegano diverse subnet e facilitano la comunicazione tra di esse. Un router funge da gateway tra le subnet, instradando il traffico tra di esse.
+
+7. **Divisione Basata su Requisiti Funzionali**:
+   - La suddivisione in subnet può essere basata su requisiti funzionali, geografici o di sicurezza, consentendo una progettazione flessibile della rete.
 
 
 
