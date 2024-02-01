@@ -252,6 +252,40 @@ Risposte alle domande :
 8-C
 
 
+___________________________________________________________
+
+
+# COMPONENTI LOGICHE E COMPONENTI FISICHE :
+
+
+The following can be considered as the logical components:
+• Domain
+• Domain tree
+• Forest
+• OU
+• Partition
+• Schema
+• Container
+The following can be considered as the physical components:
+• Data store
+• Global catalog
+• Domain controller
+• Read-only domain controller
+• Site
+• Subnet
+
+
+
+
+# CONTAINER OBJECTS
+
+
+![Screenshot 2024-02-01 alle 11 40 40](https://github.com/MrMagicalSoftware/az-800-exams/assets/98833112/494360ca-992b-402f-85dc-b1ac805ee52a)
+
+
+
+
+
 
 
 
