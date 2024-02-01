@@ -783,6 +783,9 @@ il Global Catalog è una componente critica di Active Directory che migliora l'e
 
 
 
+______________________
+
+
 
 
 1. **Cosa rappresenta il Global Catalog in Active Directory?**
